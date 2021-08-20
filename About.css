@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rajdhani:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-family: Kanit;
+    color: rgb(184, 184, 184);
+}
+
+.navbar-1
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  rgb(199, 199, 199);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.navbar-1 > a > h1
+{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-1 .nav-links
+{
+    margin-left: 180px;
+}
+
+.navbar-1 a
+{
+    text-decoration: none;
+    padding: 20;
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+.navbar-1 a:hover{
+    color:rgb(239, 255, 20)
+}
+
+
+.slogan
+{
+    padding: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.slogan > h1
+{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(72, 211, 216);
+}
+
+.text-1
+{
+    padding: 20px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.text-1 > h3
+{
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 20px;
+    text-align: center ;
+    color: rgb(158, 158, 158);
+}
+
+.fleet
+{
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.fleet > h1
+{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(72, 211, 216);
+}
+
+.fleet-picture
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding-top: 10px;
+}
+
+.fleet-text > h3
+{
+    max-width: 700px;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 20px;
+    text-align: center ;
+    color: rgb(158, 158, 158);
+}
+
+.buttom-text > h3
+{
+    max-width: 800px;
+    padding-top: 120px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 15px;
+    text-align: justify ;
+    color: rgb(168, 168, 168);
+}

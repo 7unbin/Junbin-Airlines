@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rajdhani:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-family: Kanit;
+    color: rgb(184, 184, 184);
+}
+
+.navbar-1
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  rgb(199, 199, 199);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.navbar-2
+{
+    padding: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  rgb(225, 246, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(221, 220, 220, 0.2);
+}
+
+
+.navbar-1 > a > h1
+{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-1 .nav-links
+{
+    margin-left: 180px;
+}
+
+.navbar-1 a
+{
+    text-decoration: none;
+    padding: 20;
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+.navbar-1 a:hover{
+    color:rgb(239, 255, 20)
+}
+
+.card {
+    box-shadow: 4px 4px 4px 4px rgba(201, 200, 200, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 400px;
+    float: left;
+    padding: 20px;
+    background: white;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .card .container .btn
+  {
+      margin-top: 10px;
+      background-color:rgb(130, 207, 238);
+      border-style: none;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+  }
+
+  .card .container .btn:hover
+  {
+      background-color: white;
+      color: rgb(130, 207, 238); 
+      border: 0.5px solid rgb(130, 207, 238); 
+  }
+  
+.home-picture
+{
+    margin-top: 15px;
+    margin-left: 7%;
+    max-width: 600px;
+}
+
+.slogan
+{
+    padding: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.slogan > h1
+{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(72, 211, 216);
+}
+
+.text-1
+{
+    padding: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.text-1 > h3
+{
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 20px;
+    text-align: center ;
+    color: rgb(158, 158, 158);
+}
+
+.fleet
+{
+    padding: 10px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.fleet > h1
+{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(72, 211, 216);
+}
+
+.fleet-picture
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding-top: 10px;
+}
+
+.fleet-text > h3
+{
+    max-width: 700px;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 20px;
+    text-align: center ;
+    color: rgb(158, 158, 158);
+}
+
+.buttom-text > h3
+{
+    max-width: 800px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 15px;
+    text-align: justify ;
+    color: rgb(168, 168, 168);
+}
